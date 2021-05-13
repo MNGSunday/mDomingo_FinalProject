@@ -1,0 +1,5 @@
+Attempt at: 5/12/2021 5:11:08 PM
+Time taken to escape: 49.99873 seconds
+Number of deaths before escaping: 1
+Number of enemies alerted before escaping: 2 of 5 enemies
+

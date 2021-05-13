@@ -1,7 +1,17 @@
-﻿using System.Collections;
+﻿/*
+Name: Marc Domingo
+Student ID: 2346778
+Chapman Email: mdomingo@chapman.edu
+Course Number and Section: 236-03
+Assignment: Final Project
+This is my own work, and I did not cheat on this assignment.
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// The following class represents the concept of a bullet fired by an enemy in a 2D platformer game and contains functions to simulate a bullet hitting an object.
 public class EnemyBulletScript : MonoBehaviour
 {
     public float speed;
@@ -12,6 +22,7 @@ public class EnemyBulletScript : MonoBehaviour
     private float bulletFlyTime;
     private const float BULLET_AIR_TIME = 6f;
     // Start is called before the first frame update
+    // Ensures that when the bullet is spawned, it is facing and travels in the correct direction.
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -30,6 +41,7 @@ public class EnemyBulletScript : MonoBehaviour
     }
 
     // Update is called once per frame
+    // Ensures that a bullet is destroyed if it remains in the air for 6 seconds without hitting a player or the environment.
     void Update()
     {
         StopAllCoroutines();
@@ -41,6 +53,7 @@ public class EnemyBulletScript : MonoBehaviour
         }
     }
 
+    // A timer used to determine when a bullet should be destroyed.
     IEnumerator destroyLater()
     {
         while (bulletFlyTime <= BULLET_AIR_TIME)
@@ -50,6 +63,7 @@ public class EnemyBulletScript : MonoBehaviour
         }
     }
 
+    // If the bullet collides with something, destroy it.
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.layer == 12)

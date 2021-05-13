@@ -133,6 +133,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PortalEntrance2
       objectReference: {fileID: 0}
+    - target: {fileID: 1755869810009297913, guid: a43e5765ecd9def40aef63653632c28f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 1755869810009297919, guid: a43e5765ecd9def40aef63653632c28f,
         type: 3}
       propertyPath: m_RootOrder
@@ -193,6 +198,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1906914815}
+    - target: {fileID: 4249810041497503559, guid: a43e5765ecd9def40aef63653632c28f,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1908919170}
     - target: {fileID: 4249810041497503559, guid: a43e5765ecd9def40aef63653632c28f,
         type: 3}
       propertyPath: portalEntry
@@ -272,6 +282,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PortalExit3
       objectReference: {fileID: 0}
+    - target: {fileID: 6394965822117295134, guid: e9ea83b01e1e20a458399b74ce8a5ef7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200388633586063411, guid: e9ea83b01e1e20a458399b74ce8a5ef7,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1131745873}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9ea83b01e1e20a458399b74ce8a5ef7, type: 3}
 --- !u!114 &36532225 stripped
@@ -333,8 +353,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 130}
-  m_SizeDelta: {x: 0, y: -260}
+  m_AnchoredPosition: {x: 0, y: 187.5}
+  m_SizeDelta: {x: 0, y: -375}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &77931685
 MonoBehaviour:
@@ -549,6 +569,7 @@ MonoBehaviour:
   IsEndpoint: 0
   IsSentry: 0
   PauseTime: 1
+  waypointPosition: {x: 0, y: 0}
 --- !u!1001 &279767690
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -639,6 +660,7 @@ MonoBehaviour:
   IsEndpoint: 1
   IsSentry: 1
   PauseTime: 3
+  waypointPosition: {x: 0, y: 0}
 --- !u!1001 &299965442
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -729,6 +751,7 @@ MonoBehaviour:
   IsEndpoint: 1
   IsSentry: 1
   PauseTime: 3
+  waypointPosition: {x: 0, y: 0}
 --- !u!1 &306138140
 GameObject:
   m_ObjectHideFlags: 0
@@ -787,10 +810,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -897,6 +920,7 @@ MonoBehaviour:
   IsEndpoint: 1
   IsSentry: 1
   PauseTime: 1
+  waypointPosition: {x: 0, y: 0}
 --- !u!1001 &455563990
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -987,6 +1011,7 @@ MonoBehaviour:
   IsEndpoint: 0
   IsSentry: 0
   PauseTime: 1
+  waypointPosition: {x: 0, y: 0}
 --- !u!1001 &505401615
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1249,8 +1274,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -85, y: 0}
-  m_SizeDelta: {x: 160, y: 18}
+  m_AnchoredPosition: {x: 50, y: 15}
+  m_SizeDelta: {x: 180, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &765120385
 MonoBehaviour:
@@ -1273,10 +1298,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1355,6 +1380,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PortalEntrance4
       objectReference: {fileID: 0}
+    - target: {fileID: 1755869810009297913, guid: a43e5765ecd9def40aef63653632c28f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 1755869810009297919, guid: a43e5765ecd9def40aef63653632c28f,
         type: 3}
       propertyPath: m_RootOrder
@@ -1415,6 +1445,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1906914815}
+    - target: {fileID: 4249810041497503559, guid: a43e5765ecd9def40aef63653632c28f,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 911376875}
     - target: {fileID: 4249810041497503559, guid: a43e5765ecd9def40aef63653632c28f,
         type: 3}
       propertyPath: portalEntry
@@ -1494,11 +1529,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: PortalExit2
       objectReference: {fileID: 0}
+    - target: {fileID: 6394965822117295134, guid: e9ea83b01e1e20a458399b74ce8a5ef7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 6394965822117295135, guid: e9ea83b01e1e20a458399b74ce8a5ef7,
         type: 3}
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9200388633586063411, guid: e9ea83b01e1e20a458399b74ce8a5ef7,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 864657609}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9ea83b01e1e20a458399b74ce8a5ef7, type: 3}
 --- !u!114 &894687902 stripped
@@ -1603,6 +1648,7 @@ MonoBehaviour:
   IsEndpoint: 1
   IsSentry: 1
   PauseTime: 1
+  waypointPosition: {x: 0, y: 0}
 --- !u!1 &911376874 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1755869810009297913, guid: a43e5765ecd9def40aef63653632c28f,
@@ -6936,10 +6982,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 4
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -6967,6 +7013,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PortalEntrance3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1755869810009297913, guid: a43e5765ecd9def40aef63653632c28f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1755869810009297919, guid: a43e5765ecd9def40aef63653632c28f,
         type: 3}
@@ -7030,6 +7081,11 @@ PrefabInstance:
       objectReference: {fileID: 1906914815}
     - target: {fileID: 4249810041497503559, guid: a43e5765ecd9def40aef63653632c28f,
         type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 780723438}
+    - target: {fileID: 4249810041497503559, guid: a43e5765ecd9def40aef63653632c28f,
+        type: 3}
       propertyPath: portalEntry
       value: 
       objectReference: {fileID: 8300000, guid: 48e387272fb1e724d92e57c1c9330251, type: 3}
@@ -7051,6 +7107,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PortalEntrance5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1755869810009297913, guid: a43e5765ecd9def40aef63653632c28f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1755869810009297919, guid: a43e5765ecd9def40aef63653632c28f,
         type: 3}
@@ -7112,6 +7173,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1906914815}
+    - target: {fileID: 4249810041497503559, guid: a43e5765ecd9def40aef63653632c28f,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1720885096}
     - target: {fileID: 4249810041497503559, guid: a43e5765ecd9def40aef63653632c28f,
         type: 3}
       propertyPath: portalEntry
@@ -7269,11 +7335,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -7410,6 +7476,7 @@ MonoBehaviour:
   IsEndpoint: 1
   IsSentry: 1
   PauseTime: 2
+  waypointPosition: {x: 0, y: 0}
 --- !u!1 &1044951552 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6394965822117295134, guid: e9ea83b01e1e20a458399b74ce8a5ef7,
@@ -7640,8 +7707,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -85, y: -20}
-  m_SizeDelta: {x: 160, y: 18}
+  m_AnchoredPosition: {x: 50, y: -15}
+  m_SizeDelta: {x: 180, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1089910851
 MonoBehaviour:
@@ -7664,10 +7731,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -7718,8 +7785,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -85, y: 20}
-  m_SizeDelta: {x: 160, y: 18}
+  m_AnchoredPosition: {x: -160, y: 0}
+  m_SizeDelta: {x: 240, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1095461040
 MonoBehaviour:
@@ -7742,10 +7809,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -7877,6 +7944,7 @@ MonoBehaviour:
   IsEndpoint: 1
   IsSentry: 0
   PauseTime: 2
+  waypointPosition: {x: 0, y: 0}
 --- !u!1 &1154294852 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1755869810009297913, guid: a43e5765ecd9def40aef63653632c28f,
@@ -7958,8 +8026,8 @@ MonoBehaviour:
   bullet: {fileID: 2831103811384612906, guid: 1a37e59abbe6c90418c54b1c630bcd77, type: 3}
   bulletScript: {fileID: 2783364372757097049, guid: 1a37e59abbe6c90418c54b1c630bcd77,
     type: 3}
-  timerMin: 0.25
-  timerMax: 0.5
+  timerMin: 0.5
+  timerMax: 1
   Forwards: 1
   hasSeenPlayer: 0
   playerHasLeft: 0
@@ -8053,6 +8121,7 @@ MonoBehaviour:
   IsEndpoint: 1
   IsSentry: 1
   PauseTime: 2
+  waypointPosition: {x: 0, y: 0}
 --- !u!1001 &1214090797
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8064,6 +8133,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FlyingEnemy2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266074948548238754, guid: 3f6a037d4b4311548948b144b1b74ef2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5266074948548238764, guid: 3f6a037d4b4311548948b144b1b74ef2,
         type: 3}
@@ -8119,6 +8193,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316431245305720423, guid: 3f6a037d4b4311548948b144b1b74ef2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f6a037d4b4311548948b144b1b74ef2, type: 3}
@@ -8184,8 +8263,8 @@ MonoBehaviour:
   bullet: {fileID: 2831103811384612906, guid: 1a37e59abbe6c90418c54b1c630bcd77, type: 3}
   bulletScript: {fileID: 2783364372757097049, guid: 1a37e59abbe6c90418c54b1c630bcd77,
     type: 3}
-  timerMin: 0.25
-  timerMax: 0.5
+  timerMin: 0.5
+  timerMax: 1
   Forwards: 1
   hasSeenPlayer: 0
   playerHasLeft: 0
@@ -8256,6 +8335,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PortalExit4
       objectReference: {fileID: 0}
+    - target: {fileID: 6394965822117295134, guid: e9ea83b01e1e20a458399b74ce8a5ef7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200388633586063411, guid: e9ea83b01e1e20a458399b74ce8a5ef7,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1539897877}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9ea83b01e1e20a458399b74ce8a5ef7, type: 3}
 --- !u!114 &1229096287 stripped
@@ -8360,6 +8449,7 @@ MonoBehaviour:
   IsEndpoint: 0
   IsSentry: 0
   PauseTime: 1
+  waypointPosition: {x: 0, y: 0}
 --- !u!1 &1276472853
 GameObject:
   m_ObjectHideFlags: 0
@@ -8457,6 +8547,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PortalExit6
       objectReference: {fileID: 0}
+    - target: {fileID: 9200388633586063411, guid: e9ea83b01e1e20a458399b74ce8a5ef7,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1486413100}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9ea83b01e1e20a458399b74ce8a5ef7, type: 3}
 --- !u!114 &1311523954 stripped
@@ -8561,6 +8656,7 @@ MonoBehaviour:
   IsEndpoint: 1
   IsSentry: 0
   PauseTime: 1
+  waypointPosition: {x: 0, y: 0}
 --- !u!1001 &1434015389
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8651,6 +8747,7 @@ MonoBehaviour:
   IsEndpoint: 0
   IsSentry: 0
   PauseTime: 1
+  waypointPosition: {x: 0, y: 0}
 --- !u!1001 &1456414184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8662,6 +8759,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GroundEnemy2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861069527793202081, guid: 8af404c63e7693b42bc013b1e9f998bc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6861069527793202087, guid: 8af404c63e7693b42bc013b1e9f998bc,
         type: 3}
@@ -8718,6 +8820,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7856145212371725518, guid: 8af404c63e7693b42bc013b1e9f998bc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8af404c63e7693b42bc013b1e9f998bc, type: 3}
 --- !u!1 &1456414185 stripped
@@ -8752,8 +8859,8 @@ MonoBehaviour:
   bullet: {fileID: 2831103811384612906, guid: 1a37e59abbe6c90418c54b1c630bcd77, type: 3}
   bulletScript: {fileID: 2783364372757097049, guid: 1a37e59abbe6c90418c54b1c630bcd77,
     type: 3}
-  timerMin: 0.25
-  timerMax: 0.5
+  timerMin: 0.5
+  timerMax: 1
   Forwards: 1
   hasSeenPlayer: 0
   playerHasLeft: 0
@@ -8856,6 +8963,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PortalEntrance6
       objectReference: {fileID: 0}
+    - target: {fileID: 1755869810009297913, guid: a43e5765ecd9def40aef63653632c28f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 1755869810009297919, guid: a43e5765ecd9def40aef63653632c28f,
         type: 3}
       propertyPath: m_RootOrder
@@ -8916,6 +9028,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1906914815}
+    - target: {fileID: 4249810041497503559, guid: a43e5765ecd9def40aef63653632c28f,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 102512187}
     - target: {fileID: 4249810041497503559, guid: a43e5765ecd9def40aef63653632c28f,
         type: 3}
       propertyPath: portalEntry
@@ -9014,8 +9131,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 50, y: 0}
-  m_SizeDelta: {x: 100, y: 50}
+  m_AnchoredPosition: {x: 200, y: 0}
+  m_SizeDelta: {x: 120, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1547049659
 MonoBehaviour:
@@ -9191,10 +9308,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 4
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -9301,6 +9418,7 @@ MonoBehaviour:
   IsEndpoint: 1
   IsSentry: 1
   PauseTime: 2
+  waypointPosition: {x: 0, y: 0}
 --- !u!1001 &1798132626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9402,8 +9520,8 @@ MonoBehaviour:
   bullet: {fileID: 2831103811384612906, guid: 1a37e59abbe6c90418c54b1c630bcd77, type: 3}
   bulletScript: {fileID: 2783364372757097049, guid: 1a37e59abbe6c90418c54b1c630bcd77,
     type: 3}
-  timerMin: 0.25
-  timerMax: 0.5
+  timerMin: 0.5
+  timerMax: 1
   Forwards: 1
   hasSeenPlayer: 0
   playerHasLeft: 0
@@ -9518,6 +9636,7 @@ MonoBehaviour:
   IsEndpoint: 0
   IsSentry: 0
   PauseTime: 1
+  waypointPosition: {x: 0, y: 0}
 --- !u!1 &1853616100
 GameObject:
   m_ObjectHideFlags: 0
@@ -10696,8 +10815,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -220, y: 0}
-  m_SizeDelta: {x: 100, y: 50}
+  m_AnchoredPosition: {x: -340, y: 0}
+  m_SizeDelta: {x: 100, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1897288970
 MonoBehaviour:
@@ -11196,6 +11315,7 @@ MonoBehaviour:
   IsEndpoint: 1
   IsSentry: 1
   PauseTime: 2
+  waypointPosition: {x: 0, y: 0}
 --- !u!1 &1971816121
 GameObject:
   m_ObjectHideFlags: 0
@@ -11232,8 +11352,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 220, y: 0}
-  m_SizeDelta: {x: 100, y: 50}
+  m_AnchoredPosition: {x: 330, y: 0}
+  m_SizeDelta: {x: 120, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1971816123
 MonoBehaviour:
@@ -25643,6 +25763,7 @@ MonoBehaviour:
   IsEndpoint: 0
   IsSentry: 0
   PauseTime: 1
+  waypointPosition: {x: 0, y: 0}
 --- !u!1 &2053073453
 GameObject:
   m_ObjectHideFlags: 0
@@ -25756,6 +25877,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PortalExit5
       objectReference: {fileID: 0}
+    - target: {fileID: 6394965822117295134, guid: e9ea83b01e1e20a458399b74ce8a5ef7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200388633586063411, guid: e9ea83b01e1e20a458399b74ce8a5ef7,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1044951553}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9ea83b01e1e20a458399b74ce8a5ef7, type: 3}
 --- !u!114 &2073722929 stripped
@@ -25786,6 +25917,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GroundEnemy3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861069527793202081, guid: 8af404c63e7693b42bc013b1e9f998bc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6861069527793202087, guid: 8af404c63e7693b42bc013b1e9f998bc,
         type: 3}
@@ -25852,6 +25988,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7856145212371725518, guid: 8af404c63e7693b42bc013b1e9f998bc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8af404c63e7693b42bc013b1e9f998bc, type: 3}
 --- !u!1 &2118806493 stripped
@@ -25908,7 +26049,7 @@ MonoBehaviour:
   bulletScript: {fileID: 2783364372757097049, guid: 1a37e59abbe6c90418c54b1c630bcd77,
     type: 3}
   timerMin: 0.5
-  timerMax: 0.75
+  timerMax: 1
   Forwards: 1
   hasSeenPlayer: 0
   playerHasLeft: 0
@@ -25929,6 +26070,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PortalEntrance1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1755869810009297913, guid: a43e5765ecd9def40aef63653632c28f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1755869810009297919, guid: a43e5765ecd9def40aef63653632c28f,
         type: 3}
@@ -25995,6 +26141,11 @@ PrefabInstance:
       propertyPath: tester
       value: 
       objectReference: {fileID: 1810925452}
+    - target: {fileID: 4249810041497503559, guid: a43e5765ecd9def40aef63653632c28f,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1154294853}
     - target: {fileID: 4249810041497503559, guid: a43e5765ecd9def40aef63653632c28f,
         type: 3}
       propertyPath: portalEntry
@@ -26088,6 +26239,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlyingEnemy1
       objectReference: {fileID: 0}
+    - target: {fileID: 5266074948548238754, guid: 3f6a037d4b4311548948b144b1b74ef2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 5266074948548238764, guid: 3f6a037d4b4311548948b144b1b74ef2,
         type: 3}
       propertyPath: m_RootOrder
@@ -26142,6 +26298,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316431245305720423, guid: 3f6a037d4b4311548948b144b1b74ef2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f6a037d4b4311548948b144b1b74ef2, type: 3}
@@ -26302,11 +26463,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: PortalExit1
       objectReference: {fileID: 0}
+    - target: {fileID: 6394965822117295134, guid: e9ea83b01e1e20a458399b74ce8a5ef7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 6394965822117295135, guid: e9ea83b01e1e20a458399b74ce8a5ef7,
         type: 3}
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9200388633586063411, guid: e9ea83b01e1e20a458399b74ce8a5ef7,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 933280347}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9ea83b01e1e20a458399b74ce8a5ef7, type: 3}
 --- !u!114 &6394965823925667095 stripped
@@ -26332,6 +26503,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GroundEnemy1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6861069527793202081, guid: 8af404c63e7693b42bc013b1e9f998bc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6861069527793202081, guid: 8af404c63e7693b42bc013b1e9f998bc,
         type: 3}
@@ -26396,7 +26572,7 @@ PrefabInstance:
     - target: {fileID: 7856145212371725518, guid: 8af404c63e7693b42bc013b1e9f998bc,
         type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7856145212371725518, guid: 8af404c63e7693b42bc013b1e9f998bc,
         type: 3}

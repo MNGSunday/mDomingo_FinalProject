@@ -1,10 +1,20 @@
-﻿using System;
+﻿/*
+Name: Marc Domingo
+Student ID: 2346778
+Chapman Email: mdomingo@chapman.edu
+Course Number and Section: 236-03
+Assignment: Final Project
+This is my own work, and I did not cheat on this assignment.
+*/
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using UnityEngine.UI;
 
+// The following class represents the functionality of a 2D Platformer's UI and contains functions to simulate the aspects of the game such as scorekeeping, button functionality, and records the player's stats for an attempt on a text file.
 public class GameController : MonoBehaviour
 {
     public GameObject playerEntity;

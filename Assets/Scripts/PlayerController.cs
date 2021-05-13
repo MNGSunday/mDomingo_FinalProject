@@ -1,7 +1,18 @@
-﻿using System.Collections;
+﻿/*
+Name: Marc Domingo
+Student ID: 2346778
+Chapman Email: mdomingo@chapman.edu
+Course Number and Section: 236-03
+Assignment: Final Project
+This is my own work, and I did not cheat on this assignment.
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+// The following class represents the concept of a player character in a 2D platformer game and contains functions to simulate the behavior of the player sprite in response to the player's actions and responses to game elements. 
 public class PlayerController : MonoBehaviour
 {
     public GameObject player;
