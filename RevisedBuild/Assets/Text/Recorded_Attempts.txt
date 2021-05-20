@@ -1,0 +1,20 @@
+Attempt at: 5/20/2021 1:29:22 AM
+Time taken to escape: 40.31717 seconds
+Number of deaths before escaping: 0
+Number of enemies alerted before escaping: 3 of 5 enemies
+
+Attempt at: 5/20/2021 1:30:31 AM
+Time taken to escape: 65.6723 seconds
+Number of deaths before escaping: 0
+Number of enemies alerted before escaping: 2 of 5 enemies
+
+Attempt at: 5/20/2021 1:32:05 AM
+Time taken to escape: 73.77727 seconds
+Number of deaths before escaping: 6
+Number of enemies alerted before escaping: 5 of 5 enemies
+
+Attempt at: 5/20/2021 1:33:17 AM
+Time taken to escape: 69.73347 seconds
+Number of deaths before escaping: 0
+Number of enemies alerted before escaping: 1 of 5 enemies
+
